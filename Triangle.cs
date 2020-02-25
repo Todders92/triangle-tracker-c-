@@ -13,6 +13,25 @@ public class Triangle
    SideB = sideB;
    SideC = sideC;
   }
+  public void IsTriangle(int sideA, int sideB, int sideC)
+  {
+    if(sideA + sideB < sideC || sideA + sideC < sideB || sideB + sideC < sideA)
+    {
+      Console.WriteLine("not a triangle");
+    }
+    else if (sideA == sideB && sideB == sideC)
+    {
+      Console.WriteLine("Equilateral!");
+    }
+    else if (sideA == sideB || sideB == sideC || sideC == sideA)
+    {
+      Console.WriteLine("Isosceles");
+    }
+    else
+    {
+      Console.WriteLine("Bro that's a scalene");
+    }
+  }
 
 public class TriangleChecker
 {
@@ -28,7 +47,7 @@ public class TriangleChecker
       string sideCString = Console.ReadLine();
       int sideC = int.Parse(sideCString);
       Triangle triangle = new Triangle(sideA, sideB, sideC);
-      Console.WriteLine(triangle.SideA);
+      triangle.IsTriangle(sideA, sideB, sideC);
     }
   }
 }
