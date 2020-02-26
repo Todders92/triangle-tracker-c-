@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/triangle_tracker/Triangle.csproj",
+      "projectUniqueName": "/Users/Guest/Desktop/triangle-tracker-c-/Triangle.csproj",
       "projectName": "Triangle",
-      "projectPath": "/Users/Guest/Desktop/triangle_tracker/Triangle.csproj",
+      "projectPath": "/Users/Guest/Desktop/triangle-tracker-c-/Triangle.csproj",
       "packagesPath": "/Users/Guest/.nuget/packages/",
-      "outputPath": "/Users/Guest/Desktop/triangle_tracker/obj/",
+      "outputPath": "/Users/Guest/Desktop/triangle-tracker-c-/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
